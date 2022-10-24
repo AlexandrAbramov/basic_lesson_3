@@ -18,8 +18,8 @@ elif count == 2:
     if a1 <= 0 or b1 <= 0:
         print("Такого прямоугольника не существует")
     else:
-        p = 2 * (a + b)
-        s = a * b
+        p = 2 * (a1 + b1)
+        s = a1 * b1
         print(f"Прямоугольник: a = {a}, b = {b}, переиметр: {p}; площадь: {s}")
 elif count == 3:
     a, b, c = values
