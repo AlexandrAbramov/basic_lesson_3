@@ -33,9 +33,6 @@ elif count == 3:
     elif a1 + b1 <= c1 or b1 + c1 <= a1 or a1 + c1 <= b1:
         print("Такого треугольника не существует")
     else:
-        a = 10
-        b = 20
-        с = 30
         p = (a1 + b1 + c1)
         p_p = (a1 + b1 + c1) / 2
         from math import sqrt
